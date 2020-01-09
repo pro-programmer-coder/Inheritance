@@ -1,6 +1,6 @@
 package composite;
 
-public abstract class AAA {
+public class AAA {
 
     private int x =7;
 
@@ -13,5 +13,5 @@ public abstract class AAA {
         return 3;
     }
 
-    public abstract void f1();
+    public void f1(){};
 }
