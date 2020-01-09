@@ -1,9 +1,9 @@
 package core;
 
 public class MainUnit {
-    public static void main(String ags[])
+    public static void main(String[] ags)
     {
-        BBB parent = new BBB();
+        AAA parent = new BBB();
 
         parent.fooBar();
     }

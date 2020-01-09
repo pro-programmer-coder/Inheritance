@@ -1,6 +1,6 @@
 package core;
 
-public class AAA {
+public abstract class AAA {
 
     private int x =7;
 
@@ -12,4 +12,6 @@ public class AAA {
         System.out.println("AAA::foorbar()");
         return 3;
     }
+
+    public abstract void f1();
 }
