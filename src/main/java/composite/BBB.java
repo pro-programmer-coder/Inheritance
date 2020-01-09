@@ -6,9 +6,9 @@ public class BBB{
     //    Isolated
     //    No extended influence. No I/O
 
-    private AAA parent;
+    private IAAA parent;
 
-    public BBB(AAA parent) {
+    public BBB(IAAA parent) {
         this.parent = parent;
     }
 

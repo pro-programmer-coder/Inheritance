@@ -1,6 +1,6 @@
 package composite;
 
-public class AAA {
+public class AAA implements IAAA{
 
     private int x =7;
 
@@ -15,6 +15,8 @@ public class AAA {
 
     public void f1(){};
 
-    private void f2(){};
-    
+    private void f2(){
+        System.out.println("AAA::f2()");
+    };
+
 }
