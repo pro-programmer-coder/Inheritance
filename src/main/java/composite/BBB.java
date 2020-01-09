@@ -1,12 +1,20 @@
 package composite;
 
 public class BBB{
+    //decoupling testing
+    //    Quick
+    //    Isolated
+    //    No extended influence. No I/O
 
-    private AAA parent = new AAA();
+    private AAA parent;
+
+    public BBB(AAA parent) {
+        this.parent = parent;
+    }
 
     public int fooBar(){
         parent.fooBar();
-        
+
         System.out.println("BBB::fooBar()");
         return 99;
     }

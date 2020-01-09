@@ -14,4 +14,7 @@ public class AAA {
     }
 
     public void f1(){};
+
+    private void f2(){};
+    
 }
