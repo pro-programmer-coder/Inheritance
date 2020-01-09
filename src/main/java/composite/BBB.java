@@ -1,14 +1,14 @@
-package core;
+package composite;
 
-public class BBB extends AAA {
+public class BBB{
 
-    @Override
+    private AAA parent;
+    
     public int fooBar(){
         System.out.println("BBB::fooBar()");
         return 99;
     }
 
-    @Override
     public void f1() {
 
     }
